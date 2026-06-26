@@ -13,10 +13,6 @@ def create_list(elements):      #def insert(head, value):
     return head
 
 
-def reconnect(head, value):
-    
-    return 0
-
 def show_list(head):
     prev_node = head
     list = []

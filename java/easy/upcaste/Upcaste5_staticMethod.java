@@ -7,6 +7,14 @@ public class Upcaste5_staticMethod{
 
         public int x(int i) {return i + 1; }
         public static String id() {return "P";}
+        // static 매서드는 VMT (가상 메서드 테이블)에 저장되는것이 아닌
+        // Method 영역에 들어가기 때문에
+        // 자식 클래스와 동적 바인딩(VMT)을 공유하지 않음 -> 오버라이딩 자체가 무의미
+
+        // 즉 상속은 되지만, 실제 사용할 때 가르키는 
+        // [참조 변수의 자료형(왼쪽 리모컨 타입)]이 무엇인지에 따라서
+        // 호출되는 함수 주소(부모의 id, 자식의 id)가 다름 (컴파일 시점에 결정)
+
     }
 
     public static class c5 extends p5{

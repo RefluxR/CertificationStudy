@@ -1,9 +1,9 @@
-package hard;
+package hard.lambda;
 
 /**
  * 람다와 인터페이스의 '따로 노는' 성질을 완벽히 이해하기 위한 테스트 클래스
  */
-public class LambdaMastery {
+public class Lambda2 {
 
     // 1. 딱 하나의 메서드만 있는 '함수형 인터페이스' (람다의 집)
     @FunctionalInterface

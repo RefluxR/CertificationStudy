@@ -8,7 +8,7 @@ public class Abstract_class {
             this.name = name;
         }
 
-        abstract void breathe(); // 추상 메서드는 선언만 하고 기능 구현 X
+        abstract void breathe(); // 추상 클래스는 선언만 하고 기능 구현 X
                                 // 추상 클래스를 상속받는 자식 클래스의 
                                 // 주제에 따라서 상속 받는 메서드의 내용이 달라질 수 있기 때문
 
