@@ -1,4 +1,24 @@
 lst = [1,2,3]
+dst = {i : i* 2 for i in lst}
+s = set(dst.values())
+lst[0] = 99 
+dst[2]=7
+s.add(99)
+print(len(s & set(dst.values())))
+
+# ======================================================= 아래는 풀이 [2025년 2회]
+
+
+
+
+
+
+
+
+
+
+
+lst = [1,2,3]
 dst = {i : i*2 for i in lst}
 # {2 : null, 4 : null, 6 : null} 이게 아니라!!!
 

@@ -20,9 +20,11 @@ int main() {
     struct Node n3 = {3, NULL};
     
     n1.next = &n3;  
-    n3.next = &n2;
+    n3.next = &n2;      // n1 -> n3 -> n2
 
-    func(&n1);
+    func(&n1); //n1 = 3
+               //n2 = 2
+               //n3 = 1
 
     struct Node* current = &n1;
     while (current != NULL) {
